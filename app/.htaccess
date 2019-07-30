@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^generateRandomArray/([0-9]+) renamed.php/?length=$1
